@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>啦啦啦</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1>akdj</h1>
+<div class="container">
+              <div class="container-fluid">
+                      <div class"row centered">
+                        <% for(var i=0; i<pic.length; i++) { %>
+                         <div class="col-md-3 ">
+                         <div class="centered ">
+                           <h1 class="tit"><%= name[i] %></h1>
+                           <img  class="img-responsive content adj" src="assets/images/<%= pic[i]%>" >
+                         </div>
+                       </div>
+                       <% } %>
+                      </div>
+              </div><!-- end container -->
+
+
+</div>
+
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+</body>
+</html>
